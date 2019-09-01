@@ -25,7 +25,7 @@ python ./data/CreateData.py
 python train.py --dataroot ../Data/Dataset --name baseline --model cycle_gan
 ```
 
-If you want to use a identity loss:
+- If you want to use a identity loss:
 ```
 python train.py --dataroot ../Data/Dataset --name baseline --model cycle_gan --lambda_idt 0.5
 ```
@@ -36,7 +36,7 @@ python train.py --dataroot ../Data/Dataset --name baseline --model cycle_gan --l
 python train.py --dataroot ../Data/Dataset/testA --name baseline --direction BtoA --model test
 ```
 
-If you want to compare with other method:
+- If you want to compare with other method:
 ```
 python train.py --dataroot ../Data/Dataset/testA --name baseline --direction BtoA --model test --compare 1 
 ```
