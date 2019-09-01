@@ -1,0 +1,38 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 1                             
+          checkpoints_dir: ../Checkpoints                
+                  compare: 0                             	[default: 1]
+              compare_dir: ../Data/Compare               
+                 dataroot: ../Data/Dataset/testB         	[default: None]
+             dataset_mode: single                        
+                direction: BtoA                          	[default: AtoB]
+          display_winsize: 256                           
+                    epoch: latest                        
+                     eval: False                         
+                  gpu_ids: 0                             
+          groundtruth_dir: ../Data/Groundtruth           
+                  isTrain: False                         	[default: None]
+              linear_size: 1024                          	[default: 1024]
+                load_iter: 0                             	[default: 0]
+                load_size: None                          
+         max_dataset_size: inf                           
+                    model: test                          
+             model_suffix:                               
+                     name: baseline                      	[default: experiment_name]
+                     netD: basic                         
+                     netG: resnet_9blocks                
+                  no_flip: False                         
+                    ntest: inf                           
+                num_stage: 2                             	[default: 2]
+                 num_test: 1000                          	[default: 500]
+              num_threads: 4                             
+                p_dropout: 0.5                           	[default: 0.5]
+                    phase: test                          
+               preprocess: resize_and_crop               
+              results_dir: ../Results/                   
+           serial_batches: False                         
+                   suffix:                               
+                   use_gt: 1                             	[default: 1]
+                  verbose: False                         
+----------------- End -------------------
