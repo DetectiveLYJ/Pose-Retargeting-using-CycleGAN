@@ -9,7 +9,7 @@ python>=3.6
 ### Prepare Data
 - Download Mixamo Data
 
-I use the Mixamo dataset, and I put my dataset in Data folder.If you want to collect Mixamo Data by yourself, you can follow the guide [here](https://github.com/ChrisWu1997/2D-Motion-Retargeting/blob/master/dataset/Guide%20For%20Downloading%20Mixamo%20Data.md).
+I use the [Mixamo dataset](https://www.mixamo.com/#/), and I put my dataset in Data folder.If you want to collect Mixamo Data by yourself, you can follow the guide [here](https://github.com/ChrisWu1997/2D-Motion-Retargeting/blob/master/dataset/Guide%20For%20Downloading%20Mixamo%20Data.md).
 
 - Preprocess the downloaded data
 ```
@@ -41,6 +41,4 @@ python train.py --dataroot ../Data/Dataset/testA --name baseline --direction Bto
 python train.py --dataroot ../Data/Dataset/testA --name baseline --direction BtoA --model test --compare 1 
 ```
 
-//## Final Results
-//![]()
 
