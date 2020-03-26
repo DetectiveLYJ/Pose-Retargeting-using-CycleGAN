@@ -1,4 +1,4 @@
-# CycleGAN_Retargeting
+# Pose Retargeting (using CycleGAN)
 This repository implements a CycleGAN mothod use in pose retargeting.
 ## Required Software
 To run it, you have to install following sofware with specified version(I would hignly recommend that create a virtual environment first):  
