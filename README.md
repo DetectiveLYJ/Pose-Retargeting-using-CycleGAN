@@ -41,6 +41,6 @@ python train.py --dataroot ../Data/Dataset/testA --name baseline --direction Bto
 python train.py --dataroot ../Data/Dataset/testA --name baseline --direction BtoA --model test --compare 1 
 ```
 
-## Final Results
-![]()
+//## Final Results
+//![]()
 
